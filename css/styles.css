@@ -85,9 +85,7 @@ button {
 }
 
 .header-menu-item {
-    position: relative;
-    color: #404bbf;
-    transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+
 
 }
 
@@ -95,15 +93,7 @@ button {
     display: flex;
     gap: 40px;
 }
-.header-menu-list::after {
-    content: "";
-    width: 100%;
-    position: absolute;
-    left: 0;
-    bottom: -1px;
-    height: 4px;
-    background-color: #404bbf;
-    border-radius: 2px;
+
 
 }
 
@@ -115,7 +105,20 @@ button {
         letter-spacing: 0.02em;
         padding: 24px 0px;
         display: block;
+            position: relative;
+                color: #404bbf;
+                transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
+
+.header-menu-link::after {
+    content: "";
+    width: 100%;
+    position: absolute;
+    left: 0;
+    bottom: -1px;
+    height: 4px;
+    background-color: #404bbf;
+    border-radius: 2px;
 
 .header-menu-link:hover {
     color: #404BBF;
