@@ -95,8 +95,6 @@ button {
 }
 
 
-}
-
 .header-menu-link {
     color: #2E2F42;
         font-size: 16px;
@@ -119,6 +117,7 @@ button {
     height: 4px;
     background-color: #404bbf;
     border-radius: 2px;
+}
 
 .header-menu-link:hover {
     color: #404BBF;
