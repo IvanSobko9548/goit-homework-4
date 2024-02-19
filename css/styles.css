@@ -500,6 +500,13 @@ color: #2E2F42;
 
 .footer-content {
     display: flex;
+    align-items: baseline;
+
+}
+
+.footer-logo-text {
+    margin-right: 120px;
+    
 }
 
 
