@@ -241,13 +241,15 @@ max-width: 1440px;
 .features-icon {
     display: flex;
     justify-content: center;
+    align-items: center;
     border: 1px solid var(--light-slate);
     border-radius: 4px;
     width: 264px;
     height: 112px;
-    background-color: #8E8F99;
     padding-top: 24px;
     padding-bottom: 24px;
+    background-color: #f4f4fd;
+    margin-bottom: 8px;
 }
 
 .features-item-icon {
@@ -317,6 +319,7 @@ max-width: 1440px;
 
 .name-prof {
     padding: 32px 0px;
+    
 
 }
 
