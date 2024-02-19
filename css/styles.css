@@ -431,7 +431,7 @@ color: #2E2F42;
 }
 
 .portfolio-item:hover .portfolio-cover-container {
-    transform: translate(0);
+    transform: translateY(0%);
     
 }
 
@@ -487,9 +487,9 @@ color: #2E2F42;
 
 }
 
-.portfolio-cover-text:hover {
+/* .portfolio-cover-text:hover {
     transform: translateY(0%);
-}
+} */
 
 /*===============*/
 
