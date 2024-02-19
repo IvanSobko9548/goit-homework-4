@@ -506,8 +506,8 @@ color: #2E2F42;
 
 .footer-logo-text {
     margin-right: 120px;
-    display: flex;
-        align-items: baseline;
+    /* display: flex;
+        align-items: baseline; */
 
 }
 
