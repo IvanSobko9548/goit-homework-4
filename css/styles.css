@@ -438,6 +438,9 @@ color: #2E2F42;
 .portfolio-cover-wrap {
     position: relative;
     overflow: hidden;
+}
+
+.portfolio-cover-wrap {
     transform: translateY(0%);
 }
 
