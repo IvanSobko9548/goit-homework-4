@@ -440,7 +440,7 @@ color: #2E2F42;
     overflow: hidden;
 }
 
-.portfolio-cover-wrap {
+.portfolio-cover-wrap:hover {
     transform: translateY(0%);
 }
 
